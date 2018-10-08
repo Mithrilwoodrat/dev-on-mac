@@ -21,3 +21,17 @@ add to .bash_profile:
 ```
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 ```
+
+## Setup bash git completion
+
+```
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion
+```
+
+add 
+```
+if [ -f ~/.git-completion ]; then
+  source ~/.git-completion
+fi
+```
+to ~/.bashrc
