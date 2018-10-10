@@ -1,6 +1,8 @@
 # dev-on-mac
-An opiniated guide to set up a development environment on Windows.
+An opiniated guide to set up a development environment on Mac.
 
+## Setup zsh(Optional)
+<https://sourabhbajaj.com/mac-setup/iTerm/zsh.html>
 
 ## Setup bash completion
 <https://stackoverflow.com/questions/12399002/how-to-configure-git-bash-command-line-completion>
@@ -31,7 +33,7 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 add 
 ```
 if [ -f ~/.git-completion ]; then
-  source ~/.git-completion
+  . ~/.git-completion
 fi
 ```
 to ~/.bashrc
