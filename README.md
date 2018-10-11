@@ -37,3 +37,16 @@ if [ -f ~/.git-completion ]; then
 fi
 ```
 to ~/.bashrc
+
+## Setup MySQL
+`brew install mysql@5.6`
+`echo 'export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"' >> ~/.zshrc`
+`brew services start mysql@5.6`
+
+Using `mysqladmin -u root password 'yourpassword' ` to set root password
+
+<https://gist.github.com/nrollr/3f57fc15ded7dddddcc4e82fe137b58e>
+
+## Setup Docker
+
+Download from https://store.docker.com/editions/community/docker-ce-desktop-mac
